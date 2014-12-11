@@ -3,6 +3,7 @@ node_js:
   - 0.10
 before_script:
   - npm install -g grunt-cli
+  - echo $TRAVIS_REPO_SLUG
 env:
   - [
       {secure: "TX1dd18LLvcNLaX7sa975Ix7QKtsWrXVkSkfDrDfwRoQcimnIsUErQiQJ9Sl\nOH6bLovtrVnmbs2nEUl5lVCRcEdzo9Y4TXiVaINuQqsSTDRs1MSQPzXClYnA\nJYwhoiv5MINDG2gm6QMx1Bk1ae6e3C/+WWtaavcKrFfcsnLu0v0="},
